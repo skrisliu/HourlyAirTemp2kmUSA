@@ -5,6 +5,10 @@ Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-
 
 Shengjie Liu et al. 
 
+## Preview
+![Sample Data](figure01.jpg)
+
+
 ## Dataset
 Near-surface air temperature, 2 km resolution, over the Contiguous United States, 2018-2024
 

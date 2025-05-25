@@ -8,6 +8,10 @@ Shengjie Liu et al.
 ## Preview
 ![Sample Data](figure01.jpg)
 
+Upper row: surface temperature data observations, incomplete
+
+Lower row: estimated near-surface air temperature
+
 
 ## Dataset
 Near-surface air temperature, 2 km resolution, over the Contiguous United States, 2018-2024

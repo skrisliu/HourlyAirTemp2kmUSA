@@ -10,6 +10,14 @@ Download dataset via: [https://doi.org/10.5281/zenodo.15252812](https://doi.org/
 
 Use the visual.py script to open the data: [github.com/skrisliu/HourlyAirTemp2kmUSA](https://github.com/skrisliu/HourlyAirTemp2kmUSA)
 
+
+<table>
+  <tr>
+    <td><img src="at2018042b.gif" alt="2018-02-11" width="300"/></td>
+    <td><img src="at2018200b.gif" alt="2018-07-09" width="300"/></td>
+  </tr>
+</table>
+
 ## Preview
 ### 2018-02-11
 ![Near-Surface Air Temperature 2018042](at2018042b.gif)

@@ -31,8 +31,8 @@ To visualize the dataset, use the provided script:
 ### February 11, 2018  
 ![Near-Surface Air Temperature on 2018-02-11](at2018042b.gif)
 
-### July 9, 2018  
-![Near-Surface Air Temperature on 2018-07-09](at2018200b.gif)
+### July 19, 2018  
+![Near-Surface Air Temperature on 2018-07-19](at2018200b.gif)
 
 ---
 

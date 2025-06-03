@@ -39,6 +39,7 @@ To visualize the dataset, use the provided script:
 ## 📄 How to Cite
 
 If you use this dataset or code, please cite the following:
+
 **📙 Dataset:**
 ```bibtex
 @dataset{Liu2025HourlyAirTemp2kmUSA,

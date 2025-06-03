@@ -3,20 +3,14 @@ Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-
 
 Shengjie Liu et al. 
 
+This is a GitHub repo at [github.com/skrisliu/HourlyAirTemp2kmUSA](https://github.com/skrisliu/HourlyAirTemp2kmUSA)
+
 ## Dataset
 Near-surface air temperature, 2 km resolution, over the Contiguous United States, 2018-2024
 
 Download dataset via: [https://doi.org/10.5281/zenodo.15252812](https://doi.org/10.5281/zenodo.15252812)
 
-Use the visual.py script to open the data: [github.com/skrisliu/HourlyAirTemp2kmUSA](https://github.com/skrisliu/HourlyAirTemp2kmUSA)
-
-
-<table>
-  <tr>
-    <td><img src="at2018042b.gif" alt="2018-02-11" width="300"/></td>
-    <td><img src="at2018200b.gif" alt="2018-07-09" width="300"/></td>
-  </tr>
-</table>
+**Use visual.py** to open and visualize data: [github.com/skrisliu/HourlyAirTemp2kmUSA](https://github.com/skrisliu/HourlyAirTemp2kmUSA)
 
 ## Preview
 ### 2018-02-11

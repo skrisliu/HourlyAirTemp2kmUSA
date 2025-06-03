@@ -61,3 +61,14 @@ If you use this dataset or code, please cite the following:
 }
 ```
 
+---
+
+## 📜 License
+
+This dataset is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+
+© 2025 Shengjie Kris Liu. 
+
+

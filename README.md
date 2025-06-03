@@ -16,13 +16,3 @@ Use the visual.py script to open the data: [github.com/skrisliu/HourlyAirTemp2km
 
 ### 2018-07-09
 ![Near-Surface Air Temperature 2018200](at2018200b.gif)
-
-
-## Before and After Comparison
-![Sample Data](figure01.jpg)
-
-Upper row: surface temperature data observations, **incomplete**
-
-Lower row: estimated near-surface air temperature, **complete**
-
-

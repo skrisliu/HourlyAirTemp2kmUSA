@@ -1,12 +1,11 @@
 # HourlyAirTemp2kmUSA
 
 **Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning**  
-Shengjie Kris Liu
-Email: [skrisliu@gmail.com](mailto:skrisliu@gmail.com)
-
-This repository hosts the dataset and code accompanying our study on high-resolution, hourly near-surface air temperature mapping across the Contiguous United States (CONUS) from 2018 to 2024. The approach integrates physics-informed deep learning with uncertainty quantification.
-
+**Shengjie Kris Liu**  
+Email: [skrisliu@gmail.com](mailto:skrisliu@gmail.com)  
 GitHub URL: [https://github.com/skrisliu/HourlyAirTemp2kmUSA](https://github.com/skrisliu/HourlyAirTemp2kmUSA)
+
+This repository hosts the dataset and code accompanying our study on high-resolution, hourly near-surface air temperature mapping across the Contiguous United States (CONUS) from 2018 to 2024. The approach integrates physics-guided deep learning with uncertainty quantification.
 
 ---
 
@@ -22,16 +21,17 @@ GitHub URL: [https://github.com/skrisliu/HourlyAirTemp2kmUSA](https://github.com
 ## 🧪 Code and Visualization
 
 To visualize the dataset, use the provided script:
+
 - [`visual.py`](https://github.com/skrisliu/HourlyAirTemp2kmUSA/blob/main/visual.py): Load and render daily or hourly temperature rasters with basic animations.
 
 ---
 
 ## 🖼️ Preview
 
-### February 11, 2018
+### February 11, 2018  
 ![Near-Surface Air Temperature on 2018-02-11](at2018042b.gif)
 
-### July 9, 2018
+### July 9, 2018  
 ![Near-Surface Air Temperature on 2018-07-09](at2018200b.gif)
 
 ---

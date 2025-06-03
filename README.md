@@ -40,7 +40,7 @@ To visualize the dataset, use the provided script:
 
 If you use this dataset or code, please cite the following:
 
-**📘 Dataset:**
+```bibtex
 @dataset{Liu2025HourlyAirTemp2kmUSA,
   author       = {Liu, Shengjie Kris},
   title        = {HourlyAirTemp2kmUSA: Hourly Air Temperature Estimates with Uncertainty at 2 km over the United States (2018–2024)},
@@ -49,11 +49,15 @@ If you use this dataset or code, please cite the following:
   publisher    = {Zenodo},
   url          = {https://doi.org/10.5281/zenodo.15252812}
 }
+```
 
 **📙 Paper:**
+```text
 @article{Liu2025uncertainty,
   author  = {Liu, Shengjie Kris and Wang, Siqin and Zhang, Lu},
   title   = {Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning},
   journal = {forthcoming},
   year    = {2025}
 }
+```
+

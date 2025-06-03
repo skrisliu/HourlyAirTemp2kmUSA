@@ -10,9 +10,13 @@ Near-surface air temperature, 2 km resolution, over the Contiguous United States
 
 Download dataset via: [https://doi.org/10.5281/zenodo.15252812](https://doi.org/10.5281/zenodo.15252812)
 
-More coming by 31 May 2025
+Use the visual.py script to open the data: [github.com/skrisliu/HourlyAirTemp2kmUSA](https://github.com/skrisliu/HourlyAirTemp2kmUSA)
 
 ## Preview
+![Near-Surface Air Temperature 2018042](at2018042b.gif)
+
+
+## Comparison
 ![Sample Data](figure01.jpg)
 
 Upper row: surface temperature data observations, incomplete

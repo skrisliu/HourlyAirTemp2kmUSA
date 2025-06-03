@@ -39,7 +39,7 @@ To visualize the dataset, use the provided script:
 ## 📄 How to Cite
 
 If you use this dataset or code, please cite the following:
-
+**📙 Dataset:**
 ```bibtex
 @dataset{Liu2025HourlyAirTemp2kmUSA,
   author       = {Liu, Shengjie Kris},
@@ -52,7 +52,7 @@ If you use this dataset or code, please cite the following:
 ```
 
 **📙 Paper:**
-```text
+```bibtex
 @article{Liu2025uncertainty,
   author  = {Liu, Shengjie Kris and Wang, Siqin and Zhang, Lu},
   title   = {Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning},

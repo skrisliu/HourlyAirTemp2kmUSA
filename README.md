@@ -1,7 +1,7 @@
 # HourlyAirTemp2kmUSA
 
 **Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning**  
-Shengjie Liu<sup>1*</sup>  
+Shengjie Kris Liu
 Email: [skrisliu@gmail.com](mailto:skrisliu@gmail.com)
 
 This repository hosts the dataset and code accompanying our study on high-resolution, hourly near-surface air temperature mapping across the Contiguous United States (CONUS) from 2018 to 2024. The approach integrates physics-informed deep learning with uncertainty quantification.
@@ -42,7 +42,7 @@ If you use this dataset or code, please cite the following:
 
 **📘 Dataset:**
 @dataset{Liu2025HourlyAirTemp2kmUSA,
-  author       = {Liu, Shengjie},
+  author       = {Liu, Shengjie Kris},
   title        = {HourlyAirTemp2kmUSA: Hourly Air Temperature Estimates with Uncertainty at 2 km over the United States (2018–2024)},
   year         = {2024},
   doi          = {10.5281/zenodo.15252812},
@@ -52,7 +52,7 @@ If you use this dataset or code, please cite the following:
 
 **📙 Paper:**
 @article{Liu2025uncertainty,
-  author  = {Liu, Shengjie and Wang, Siqin and Zhang, Lu},
+  author  = {Liu, Shengjie Kris and Wang, Siqin and Zhang, Lu},
   title   = {Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning},
   journal = {forthcoming},
   year    = {2025}

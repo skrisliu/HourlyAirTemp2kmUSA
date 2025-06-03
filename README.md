@@ -45,7 +45,7 @@ If you use this dataset or code, please cite the following:
 @dataset{Liu2025HourlyAirTemp2kmUSA,
   author       = {Liu, Shengjie Kris},
   title        = {HourlyAirTemp2kmUSA: Hourly Air Temperature Estimates with Uncertainty at 2 km over the United States (2018–2024)},
-  year         = {2024},
+  year         = {2025},
   doi          = {10.5281/zenodo.15252812},
   publisher    = {Zenodo},
   url          = {https://doi.org/10.5281/zenodo.15252812}

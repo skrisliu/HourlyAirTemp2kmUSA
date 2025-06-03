@@ -12,7 +12,7 @@ Download dataset via: [https://doi.org/10.5281/zenodo.15252812](https://doi.org/
 
 **Use visual.py** to open and visualize data: [github.com/skrisliu/HourlyAirTemp2kmUSA](https://github.com/skrisliu/HourlyAirTemp2kmUSA)
 
-**ZENODO has a 200GB data storage hard limit, thus not including the lower and upper predictions. There will be a link here for one year of the lower/upper predictions (~30GB) by June 6. If you need all 2018-2024 uncertainty data, contact me.**
+**ZENODO has a 200GB data storage hard limit, thus not including the lower and upper predictions. There will be a link here for one year of the lower/upper predictions (~35GB) by June 6. If you need all 2018-2024 uncertainty data, contact me.**
 
 ## Preview
 ### 2018-02-11

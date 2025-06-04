@@ -42,13 +42,17 @@ If you use this dataset or code, please cite the following:
 
 **📙 Dataset:**
 ```bibtex
-@dataset{Liu2025HourlyAirTemp2kmUSA,
-  author       = {Liu, Shengjie Kris},
-  title        = {HourlyAirTemp2kmUSA: Hourly Air Temperature Estimates with Uncertainty at 2 km over the United States (2018–2024)},
-  year         = {2025},
-  doi          = {10.5281/zenodo.15252812},
+@dataset{liu_2025_15252813,
+  author       = {Liu, Shengjie},
+  title        = {All-Weather Hourly Near-Surface Air Temperature 2
+                   km United States 2018-2024
+                  },
+  month        = may,
+  year         = 2025,
   publisher    = {Zenodo},
-  url          = {https://doi.org/10.5281/zenodo.15252812}
+  version      = {v0.1},
+  doi          = {10.5281/zenodo.15252813},
+  url          = {https://doi.org/10.5281/zenodo.15252813},
 }
 ```
 

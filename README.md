@@ -22,7 +22,7 @@ This repository hosts the dataset and code accompanying our study on high-resolu
 
 To visualize the dataset, use the provided script:
 
-- [`visual.py`](https://github.com/skrisliu/HourlyAirTemp2kmUSA/blob/main/visual.py): Load and render hourly temperature rasters within one day with basic animations.
+- [`visual.py`](https://github.com/skrisliu/HourlyAirTemp2kmUSA/blob/main/visual.py): Load and render hourly temperature data within a specific day with basic animations.
 
 ---
 

@@ -14,8 +14,8 @@ This repository hosts the dataset and code accompanying our study on high-resolu
 - **Description:** Hourly near-surface air temperature data at 2 km spatial resolution, covering the Contiguous United States (CONUS), for the years 2018–2024.  
 - **Download:** [Zenodo DOI: 10.5281/zenodo.15252812](https://doi.org/10.5281/zenodo.15252812)
 
-> ⚠️ **Note:** This dataset includes the **mean prediction** of the target variable. Due to the 200GB storage limit on Zenodo, the **upper and lower bounds of the predictive uncertainty** are not included here.  
-> However, a sample of the uncertainty data for one representative year (2018, ~35GB) is available at [https://osf.io/2x7nt/files/osfstorage](https://osf.io/2x7nt/files/osfstorage).  
+> ⚠️ **Note:** This dataset includes the **mean prediction** of the target variable. Due to the 200GB storage limit on Zenodo, the **upper and lower bounds of the predictive uncertainty** are not included within the main dataset.  
+> A sample of the uncertainty data for one representative year (2018, ~35GB) is available at [https://osf.io/2x7nt/files/osfstorage](https://osf.io/2x7nt/files/osfstorage).  
 > For access to the complete uncertainty dataset (2018–2024), please contact the author directly.
 
 

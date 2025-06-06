@@ -12,7 +12,7 @@ This repository hosts the dataset and code accompanying our study on high-resolu
 ## 📦 Dataset
 
 - **Description:** Hourly near-surface air temperature data at 2 km spatial resolution, covering the Contiguous United States (CONUS), for the years 2018–2024.  
-- **Data range:** 0–65,535, with 65,535 as no-data mask.  
+- **Data range:** 0–65535, with 65535 as no-data mask.  
 - **Conversion:** Kelvin = value × 0.00341802 + 149; Celsius = Kelvin − 273.15; Fahrenheit = Celsius × 9/5 + 32.  
 - **Download:** [Zenodo DOI: 10.5281/zenodo.15252812](https://doi.org/10.5281/zenodo.15252812)
 

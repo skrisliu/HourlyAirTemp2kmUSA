@@ -48,17 +48,15 @@ If you use this dataset or code, please cite the following:
 
 **📙 Dataset:**
 ```bibtex
-@dataset{liu_2025_15252813,
-  author       = {Liu, Shengjie},
-  title        = {All-Weather Hourly Near-Surface Air Temperature 2
-                   km United States 2018-2024
-                  },
-  month        = may,
-  year         = 2025,
+@dataset{liu_2025_allweather,
+  author       = {Shengjie Liu},
+  title        = {All-Weather Hourly Near-Surface Air Temperature (2 km), {United States}, 2018--2024},
   publisher    = {Zenodo},
+  year         = {2025},
+  month        = {May},
   version      = {v0.1},
   doi          = {10.5281/zenodo.15252813},
-  url          = {https://doi.org/10.5281/zenodo.15252813},
+  url          = {https://doi.org/10.5281/zenodo.15252813}
 }
 ```
 

@@ -1,151 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>HourlyAirTemp2kmUSA</title>
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0Y5PM7E86"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-C0Y5PM7E86');
-  </script>
-
+  <title>Hourly Air Temperature Mapping 2 km United States (2018-2024)</title>
+  <link rel="stylesheet" href="https://skrisliu.com/css/font.css">
+  <link rel="stylesheet" href="https://skrisliu.com/css/style.css">
   <style>
-    body {
-      font-family: system-ui, sans-serif;
-      margin: 2rem auto;
-      max-width: 800px;
-      padding: 0 1rem;
-      line-height: 1.6;
-    }
-    h1, h2, h3 {
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 0.3em;
-    }
-    pre {
-      background: #f4f4f4;
-      padding: 1em;
-      overflow-x: auto;
-    }
-    code {
-      background: #eee;
-      padding: 0.2em 0.4em;
-      border-radius: 4px;
-    }
-    a {
-      color: #0366d6;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    hr {
-      margin: 2em 0;
-    }
-    img {
-      max-width: 100%;
+    .dataset-info {
+      padding: 1rem;
+      background-color: #e5e7eb;
     }
   </style>
 </head>
+
 <body>
+  <div class="content">
+    <h2 class="content-title">
+      Hourly Air Temperature Mapping at 2 km Resolution in the United States (2018-2024) Using Physics-Guided Deep
+      Learning
+    </h2>
 
-<main>
-  <h1>HourlyAirTemp2kmUSA</h1>
+    <p class="content-meta">Shengjie Kris Liu. <a href="mailto:skrisliu@gmail.com">skrisliu@gmail.com</a></p>
+    <p class="dataset-info">
+      <strong>GitHub Repository:</strong> <a href="https://github.com/skrisliu/HourlyAirTemp2kmUSA"
+        target="_blank">HourlyAirTemp2kmUSA</a><br>
+      <strong>Download Dataset:</strong> <a href="https://doi.org/10.5281/zenodo.15252812" target="_blank">Dataset at
+        Zenodo</a><br>
+      <strong>Visualization Code:</strong> <a href="https://github.com/skrisliu/HourlyAirTemp2kmUSA/blob/main/visual.py"
+        target="_blank">Code to read and visualize data</a>
+    </p>
 
-  <p><strong>Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning</strong><br>
-  <strong>Shengjie Kris Liu</strong><br>
-  Email: <a href="mailto:skrisliu@gmail.com">skrisliu@gmail.com</a><br>
-  GitHub URL: <a href="https://github.com/skrisliu/HourlyAirTemp2kmUSA">https://github.com/skrisliu/HourlyAirTemp2kmUSA</a></p>
+    <p>
+      This page provides the near-surface air temperature dataset across the
+      Contiguous United States (2018-2024) at 2 km resolution, generated using physics-guided deep learning with
+      uncertainty quantification.
+    </p>
 
-  <p>This repository hosts the dataset and code accompanying our study on high-resolution, hourly near-surface air temperature mapping across the Contiguous United States (CONUS) from 2018 to 2024. The approach integrates physics-guided deep learning with uncertainty quantification.</p>
+    <hr>
+    <h3>Dataset Description</h3>
+    <ul>
+      <li>Hourly air temperature at 2 km resolution for CONUS, 2018-2024.</li>
+      <li>Data range: 0-65535 (65535 = no data).</li>
+      <li>Conversion: Kelvin = value * 0.00341802 + 149; Celsius = Kelvin - 273.15; Fahrenheit = Celsius * 9/5 + 32.
+      </li>
+      <li>Mean predictions available at <a href="https://doi.org/10.5281/zenodo.15252812">Zenodo</a>.</li>
+      <li>Uncertainty data sample (2018, ~35GB) at <a href="https://osf.io/2x7nt/files/osfstorage">OSF</a>. Contact
+        author for full uncertainty dataset.</li>
+    </ul>
 
-  <hr>
+    <hr>
+    <h3>Visualization</h3>
+    <p>Use <a href="https://github.com/skrisliu/HourlyAirTemp2kmUSA/blob/main/visual.py">visual.py</a> to render hourly
+      temperature data with animations.</p>
 
-  <h2>📦 Dataset</h2>
+    <h3>Previews</h3>
+    <p>
+      February 11, 2018<br>
+      <a href="im/at2018042b.gif" target="_blank">
+        <img src="im/at2018042b.gif" alt="Temperature on 2018-02-11" width="100%">
+      </a>
 
-<ul>
-  <li><strong>Description:</strong> Hourly near-surface air temperature data at 2 km spatial resolution, covering the Contiguous United States (CONUS), for the years 2018–2024.</li>
-  <li><strong>Data range:</strong> 0–65535, with 65535 as no-data mask.</li>
-  <li><strong>Conversion:</strong> Kelvin = value × 0.00341802 + 149; Celsius = Kelvin − 273.15; Fahrenheit = Celsius × 9/5 + 32.</li>
-  <li><strong>Download:</strong> <a href="https://doi.org/10.5281/zenodo.15252812">Zenodo DOI: 10.5281/zenodo.15252812</a></li>
-</ul>
+    </p>
+    <p>
+      July 19, 2018<br>
+      <a href="im/at2018200b.gif" target="_blank">
+        <img src="im/at2018200b.gif" alt="Temperature on 2018-07-19" width="100%">
+      </a>
 
-<blockquote>
-  ⚠️ <strong>Note:</strong> This dataset includes the <strong>mean prediction</strong> of the target variable. 
-  Due to the 200GB storage limit on Zenodo, the <strong>upper and lower bounds of the predictive uncertainty</strong> 
-  are not included within the main dataset.<br>
-  A sample of the uncertainty data for one representative year (2018, ~35GB) is available at 
-  <a href="https://osf.io/2x7nt/files/osfstorage" target="_blank" rel="noopener noreferrer">
-    https://osf.io/2x7nt/files/osfstorage
-  </a>.<br>
-  For access to the complete uncertainty dataset (2018–2024), please contact the author directly.
-</blockquote>
+    </p>
 
+    <hr>
+    <h3>Want to know more?</h3>
+    <a href="https://arxiv.org/abs/2509.12329" target="_blank">Liu, Shengjie Kris, Siqin Wang, and Lu Zhang. "Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning." arXiv preprint arXiv:2509.12329 (2025).</a>
 
-
-  <hr>
-
-  <h2>🧪 Code and Visualization</h2>
-
-  <p>To visualize the dataset, use the provided script:</p>
-  <ul>
-    <li><a href="https://github.com/skrisliu/HourlyAirTemp2kmUSA/blob/main/visual.py">visual.py</a>: Load and render hourly temperature data within a specific day with basic animations.</li>
-  </ul>
-
-  <hr>
-
-  <h2>🖼️ Preview</h2>
-
-  <h3>February 11, 2018</h3>
-  <img src="at2018042b.gif" alt="Near-Surface Air Temperature on 2018-02-11">
-
-  <h3>July 19, 2018</h3>
-  <img src="at2018200b.gif" alt="Near-Surface Air Temperature on 2018-07-19">
-
-  <hr>
-
-  <h2>📄 How to Cite</h2>
-
-  <p>If you use this dataset or code, please cite the following:</p>
-
-  <p><strong>📙 Dataset:</strong></p>
-  <pre><code>@dataset{liu_2025_15252813,
-  author       = {Liu, Shengjie},
-  title        = {All-Weather Hourly Near-Surface Air Temperature 2
-                   km United States 2018-2024
-                  },
-  month        = may,
-  year         = 2025,
-  publisher    = {Zenodo},
-  version      = {v0.1},
-  doi          = {10.5281/zenodo.15252813},
-  url          = {https://doi.org/10.5281/zenodo.15252813},
-}
-</code></pre>
-
-  <p><strong>📙 Paper:</strong></p>
-  <pre><code>@article{Liu2025uncertainty,
-  author  = {Liu, Shengjie Kris and Wang, Siqin and Zhang, Lu},
-  title   = {Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning},
-  journal = {forthcoming},
-  year    = {2025}
-}
-</code></pre>
-
-  <hr>
-
-  <h2>📜 License</h2>
-
-  <p>© 2025 Shengjie Kris Liu. This dataset is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.</p>
-
-  <p><a href="https://creativecommons.org/licenses/by/4.0/">
-    <img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="CC BY 4.0">
-  </a></p>
-</main>
-
+    <hr>
+    <p>&copy; 2025 Shengjie Kris Liu. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY
+        4.0</a>.
+    </p>
+  </div>
 </body>
+
 </html>

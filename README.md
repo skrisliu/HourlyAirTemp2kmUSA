@@ -1,81 +1,49 @@
-# HourlyAirTemp2kmUSA
+# Hourly Air Temperature Mapping at 2 km Resolution in the United States (2018-2024) Using Physics-Guided Deep Learning
 
-**Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning**  
-**Shengjie Kris Liu**  
-Email: [skrisliu@gmail.com](mailto:skrisliu@gmail.com)  
-GitHub URL: [https://github.com/skrisliu/HourlyAirTemp2kmUSA](https://github.com/skrisliu/HourlyAirTemp2kmUSA)
+**Author:** Shengjie Kris Liu  
+**Email:** [skrisliu@gmail.com](mailto:skrisliu@gmail.com)
 
-This repository hosts the dataset and code accompanying our study on high-resolution, hourly near-surface air temperature mapping across the Contiguous United States (CONUS) from 2018 to 2024. The approach integrates physics-guided deep learning with uncertainty quantification.
+- **GitHub Repository:** [HourlyAirTemp2kmUSA](https://github.com/skrisliu/HourlyAirTemp2kmUSA)
+- **Download Dataset:** [Dataset at Zenodo](https://doi.org/10.5281/zenodo.15252812)
+- **Visualization Code:** [Code to read and visualize data](https://github.com/skrisliu/HourlyAirTemp2kmUSA/blob/main/visual.py)
 
----
-
-## 📦 Dataset
-
-- **Description:** Hourly near-surface air temperature data at 2 km spatial resolution, covering the Contiguous United States (CONUS), for the years 2018–2024.  
-- **Data range:** 0–65535, with 65535 as no-data mask.  
-- **Conversion:** Kelvin = value × 0.00341802 + 149; Celsius = Kelvin − 273.15; Fahrenheit = Celsius × 9/5 + 32.  
-- **Download:** [Zenodo DOI: 10.5281/zenodo.15252812](https://doi.org/10.5281/zenodo.15252812)
+This repository provides the near-surface air temperature dataset across the Contiguous United States (2018-2024) at 2 km resolution, generated using physics-guided deep learning with uncertainty quantification.
 
 
-> ⚠️ **Note:** This dataset includes the **mean prediction** of the target variable. Due to the 200GB storage limit on Zenodo, the **upper and lower bounds of the predictive uncertainty** are not included within the main dataset.  
-> A sample of the uncertainty data for one representative year (2018, ~35GB) is available at [https://osf.io/2x7nt/files/osfstorage](https://osf.io/2x7nt/files/osfstorage).  
-> For access to the complete uncertainty dataset (2018–2024), please contact the author directly.
+## Dataset Description
+
+- Hourly air temperature at 2 km resolution for CONUS, 2018-2024.
+- Data range: 0-65535 (65535 = no data).
+- Conversion: Kelvin = value * 0.00341802 + 149; Celsius = Kelvin - 273.15; Fahrenheit = Celsius * 9/5 + 32.
+- Mean predictions available at [Zenodo](https://doi.org/10.5281/zenodo.15252812).
+- Uncertainty data sample (2018, ~35GB) at [OSF](https://osf.io/2x7nt/files/osfstorage). Contact author for full uncertainty dataset.
+
+## Visualization
+
+Use [visual.py](https://github.com/skrisliu/HourlyAirTemp2kmUSA/blob/main/visual.py) to render hourly temperature data with animations.
+
+## Previews
+
+### February 11, 2018
+![Temperature on 2018-02-11](im/at2018042b.gif)
+
+### July 19, 2018
+![Temperature on 2018-07-19](im/at2018200b.gif)
 
 
----
+## Want to Know More?
 
-## 🧪 Code and Visualization
+Liu, Shengjie Kris, Siqin Wang, and Lu Zhang. "Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning." arXiv preprint [arXiv:2509.12329](https://arxiv.org/abs/2509.12329) (2025).
 
-To visualize the dataset, use the provided script:
-
-- [`visual.py`](https://github.com/skrisliu/HourlyAirTemp2kmUSA/blob/main/visual.py): Load and render hourly temperature data within a specific day with basic animations.
-
----
-
-## 🖼️ Preview
-
-### February 11, 2018  
-![Near-Surface Air Temperature on 2018-02-11](at2018042b.gif)
-
-### July 19, 2018  
-![Near-Surface Air Temperature on 2018-07-19](at2018200b.gif)
-
----
-
-## 📄 How to Cite
-
-If you use this dataset or code, please cite the following:
-
-**📙 Dataset:**
 ```bibtex
-@dataset{liu_2025_allweather,
-  author       = {Shengjie Liu},
-  title        = {All-Weather Hourly Near-Surface Air Temperature (2 km), {United States}, 2018--2024},
-  publisher    = {Zenodo},
-  year         = {2025},
-  month        = {May},
-  version      = {v0.1},
-  doi          = {10.5281/zenodo.15252813},
-  url          = {https://doi.org/10.5281/zenodo.15252813}
-}
-```
-
-**📙 Paper:**
-```bibtex
-@article{Liu2025uncertainty,
-  author  = {Liu, Shengjie Kris and Wang, Siqin and Zhang, Lu},
-  title   = {Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning},
-  journal = {forthcoming},
-  year    = {2025}
+@article{liu2025uncertainty,
+  title={Uncertainty-Aware Hourly Air Temperature Mapping at 2 km Resolution via Physics-Guided Deep Learning},
+  author={Liu, Shengjie Kris and Wang, Siqin and Zhang, Lu},
+  journal={arXiv preprint arXiv:2509.12329},
+  year={2025}
 }
 ```
 
 ---
 
-## 📜 License
-
-© 2025 Shengjie Kris Liu. This dataset is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-
-[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
-
-
+© 2025 Shengjie Kris Liu. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
